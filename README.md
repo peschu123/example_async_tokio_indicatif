@@ -1,8 +1,8 @@
 # example_async_tokio_indicatif
 
 Since async can be a bit confusing at the beginning, I made a little example to visualize async behavior with indicatif multi progress. 
-Lots of comments so that everybody can understand whats going on.
-
+Lots of comments (maybe too much?!) so that everybody can understand whats going on.
+ 
 This is for beginners (like me) in rust/programming. :-)
 
 It uses mainly [indicatif](https://github.com/console-rs/indicatif) (multi) progress bar and [tokio](https://tokio.rs/) JoinSet + spawn.
