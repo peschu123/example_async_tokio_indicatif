@@ -7,6 +7,8 @@ This is for beginners (like me) in rust/programming. :-)
 
 It uses mainly [indicatif](https://github.com/console-rs/indicatif) (multi) progress bar and [tokio](https://tokio.rs/) JoinSet + spawn.
 
+[![asciicast](https://asciinema.org/a/550348.svg)](https://asciinema.org/a/550348?t=1:30)
+
 Based on these examples:
 
 [indicatif examples/multi.rs](https://github.com/console-rs/indicatif/blob/main/examples/multi.rs)
