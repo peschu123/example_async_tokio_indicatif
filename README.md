@@ -5,7 +5,7 @@ Lots of comments so that everybody can understand whats going on.
 
 This is for beginners (like me) in rust/programming. :-)
 
-It is uses mainly [indicatif](https://github.com/console-rs/indicatif) (multi) progress bar and [tokio](https://tokio.rs/) JoinSet + spawn.
+It uses mainly [indicatif](https://github.com/console-rs/indicatif) (multi) progress bar and [tokio](https://tokio.rs/) JoinSet + spawn.
 
 Based on these examples:
 
