@@ -83,6 +83,18 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a357d28ed41a50f9c765dbfe56cbc04a64e53e5fc58ba79fbc34c10ef3df831f"
 
 [[package]]
+name = "example_async_tokio_indicatif"
+version = "0.1.0"
+dependencies = [
+ "comfy-table",
+ "futures",
+ "indicatif",
+ "rand",
+ "tokio",
+ "uuid",
+]
+
+[[package]]
 name = "futures"
 version = "0.3.25"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -474,18 +486,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "unicode-ident",
-]
-
-[[package]]
-name = "test_async"
-version = "0.1.0"
-dependencies = [
- "comfy-table",
- "futures",
- "indicatif",
- "rand",
- "tokio",
- "uuid",
 ]
 
 [[package]]
