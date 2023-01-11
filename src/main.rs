@@ -116,9 +116,7 @@ async fn do_stuff(uuid: Uuid, index: usize, steps: u64, pb_task: ProgressBar) ->
         sleep(Duration::from_millis(tick)).await;
         pb_task.inc(1);
     }
-    // finish the task progress bar
-    // pb_task could also be returned from this function
-    // and then used in the while loop the future is finally awaited
-    pb_task.finish_with_message(format!("DONE file # {} with uuid:{}", index, uuid));
+   // finish the task progress bar with a message
+   pb_task.finish_with_message(format!("DONE file # {} with uuid:{}", index, uuid));
     uuid
 }
